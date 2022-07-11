@@ -1,0 +1,9 @@
+version: '2'
+services:
+    k_learn:
+        command: ["uvicorn", "app.main:app", "--reload", "--port", "8000"]
+        build: .
+        volumes:
+            - ./app/:/app
+        ports:
+            - 8000:8000
