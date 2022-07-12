@@ -1,5 +1,0 @@
-konlpy
-mecab-python
-fastapi
-uvicorn[standard]
-selenium
