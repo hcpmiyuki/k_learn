@@ -3,3 +3,4 @@ mecab-python
 fastapi
 uvicorn[standard]
 selenium
+google-cloud-translate==2.0.1

@@ -29,4 +29,4 @@ class KoreanDict:
         means = []
         for e in mean_elements:
             means.append(e.text)
-        return {word: means}
+        return means
