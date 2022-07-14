@@ -18,4 +18,6 @@ services:
         depends_on:
             selenium:
                 condition: service_started
+        environment:
+            GOOGLE_APPLICATION_CREDENTIALS: /app/.keys/k-learn-356308-750f03b3e3eb.json
         tty: true
